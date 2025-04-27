@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*
+Styles associés au composant Barmitzvah
+*/
+
+/* Styles de base pour le composant BarMitzvah */
+.barmitzvah {
+  display: flex;
+  font-family: "Nunito", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #312682;
+  /* Couleur de fond de la barre de navigation */
+  padding: 10px 20px;
+  /* Espacement interne */
+}
+
+/* Ajustement des logos */
+.barmitzvah .logo img {
+  max-width: 65px;
+  /* Largeur maximale des logos */
+  height: auto;
+  /* Hauteur auto pour garder le ratio */
+}
+
+/* Liste des liens dans la barre de navigation */
+.barmitzvah-links {
+  display: flex;
+  list-style: none;
+  /* Retirer les puces de la liste */
+  margin: 0;
+  padding: 0;
+}
+
+/* Espacement entre les éléments de la liste */
+.barmitzvah-links li {
+  margin: 0 15px;
+  /* Marge à gauche et à droite */
+}
+
+/* Styles des liens dans la barre de navigation */
+.barmitzvah-links li a {
+  color: #c1bcf5;
+  /* Couleur du texte des liens */
+  text-decoration: none;
+  /* Retirer la sous-ligne */
+  font-size: 16px;
+  /* Taille du texte */
+  font-weight: bold;
+  /* Texte en gras */
+  transition: color 0.3s ease;
+  /* Transition douce pour le hover */
+}
+
+/* Effet au survol des liens */
+.barmitzvah-links li a:hover {
+  color: #ffffff;
+  /* Change la couleur au survol */
+  text-decoration: underline;
+  /* Ajouter la sous-ligne au survol */
+}
+
+/* Section contenant les icônes */
+.images {
+  display: flex;
+  justify-content: flex-end;
+  /* Aligner les icônes à droite */
+  align-items: center;
+  gap: 15px;
+  /* Espacement entre les icônes */
+}
+
+/* Styles des images SVG */
+.svg-image {
+  color : #c1bcf5;
+  width: 65px;
+  height: 65px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Changer la couleur et ajouter un effet zoom au survol des icônes */
+.svg-image:hover {
+  transform: scale(1.1);
+  /* Zoom léger au survol */
+  color: #11b4b9;
+  /* Changer la couleur au survol */
+}

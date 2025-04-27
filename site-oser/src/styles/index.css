@@ -1,0 +1,58 @@
+/* src/styles/globals.css */
+
+/* Import des directives Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transparent-square {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: calc(45vw + 100px);
+  height: 20vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.image {
+  background-image: url('/accueil-oser.jpg');
+  background-size: cover;
+  /* L'image couvre toute la zone de l'élément */
+  background-position: center;
+  /* Centrer l'image */
+  width: 100%;
+  /* Utiliser la largeur de la fenêtre (viewport) */
+  height: 100vh;
+  /* Utiliser la hauteur de la fenêtre (viewport) */
+}
+
+.my-image-class {
+  width: "100%";
+  height: "auto";
+}
+
+
+.Weight {
+  font-weight: bold;
+}
+
+.bleu_oser {
+  color: #11B4B9
+}
+
+.rouge_oser {
+  color: #f3395e
+}
+
+.rouge_gras_oser {
+  color: #f3395e;
+  font-weight: bold;
+}
+
+.mail_rouge_oser {
+  color: #f3395e;
+  font-weight: bold;
+  text-decoration: underline;
+}

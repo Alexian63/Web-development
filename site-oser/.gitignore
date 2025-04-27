@@ -1,0 +1,27 @@
+# Dependency directories
+/node_modules/
+
+# Build output
+/build/
+/dist/
+/.next/
+
+# System files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native
+.expo/
+
+# Env files
+.env
+.next
+.next/

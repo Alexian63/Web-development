@@ -1,0 +1,42 @@
+/* Styles de base */
+
+/* Import des directives Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Weight {
+  font-weight: bold;
+}
+
+.bleu_oser {
+  color: #11b4b9;
+}
+
+.bandeau_photo {
+  background-color: #11b4b9;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 675px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 colonnes égales */
+  gap: 16px;
+  /* Espacement entre les images */
+  padding: 16px;
+  /* Marge intérieure */
+  justify-items: center;
+  /* Centre les images horizontalement */
+  align-items: center;
+}
+
+.bandeau_photo img {
+  width: 100%;
+  /* Chaque image prend toute la largeur de sa colonne */
+  height: auto;
+  /* Garde les proportions */
+  border-radius: 8px;
+  /* Coins arrondis */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Ombre légère */
+}

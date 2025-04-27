@@ -1,0 +1,75 @@
+/* Style du conteneur */
+
+/* Style du titre */
+h2 {
+    color: #312682;
+    margin-bottom: 20px;
+}
+
+/* Style des champs d'entrée */
+input {
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #312682;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+input:focus {
+    border-color: #11B4B9;
+    box-shadow: 0 0 5px rgba(17, 180, 185, 0.5);
+}
+
+/* Style du bouton */
+button {
+    width: 80%;
+    max-width: 300px;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #312682;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #11B4B9;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #0d8a8e;
+}
+
+.form-container {
+    background: white;
+    /* Fond blanc */
+    padding: 5px;
+    /* Espacement intérieur */
+    border-radius: 10px;
+    /* Coins arrondis */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Ombre légère */
+    width: 400px;
+    /* Largeur du formulaire */
+    margin: 50px auto;
+    /* Centre le formulaire */
+    text-align: center;
+    /* Centre le contenu */
+}
+
+label {
+    display: block;
+    /* Affiche le label sur une ligne entière */
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0 5px;
+    /* Espacement autour du label */
+}

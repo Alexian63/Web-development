@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap");
+
+.banner {
+  font-family: "Raleway", sans-serif;
+}
+
+.banner-title {
+  margin: 0;
+}
+
+.banner-text {
+  margin: 10px 0 0;
+}
+.banner-link {
+  font-weight: bold; /* ✅ Texte en gras */
+  text-decoration: underline; /* ✅ Texte souligné */
+  color: #ffffff; /* ✅ Couleur dorée */
+  cursor: pointer;
+}
+.highlight {
+  color: #d6faff;
+}

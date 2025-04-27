@@ -1,0 +1,145 @@
+/* Style de la page sorties_admin*/
+
+/* Style du titre */
+h2 {
+    color: #312682;
+    margin-bottom: 20px;
+}
+
+
+/* Bloc titre*/
+.input-titre {
+    font-size: 36px;
+    height : 45px ;
+    
+}
+
+
+.container-titre{
+    font-size: 36px ;
+    color: #312682 ;
+}
+
+/* Bloc description */
+.input-desc{
+    font-size: 24px;
+    height: 200px;
+       
+}
+
+
+.container{
+    font-size: 24px;
+    color : #312682;
+}
+
+.containerdate{
+    font-size: 20px;
+    color : #312682 ;
+    border-width: 2px;
+    border-color: #c1bcf5;
+    border-style: solid; 
+    padding: 5px;
+    border-radius: 10px;
+    width: 45%;
+    background-color: #eae8f9;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.containerlieu{
+    font-size: 20px;
+    color : #312682 ;
+    border-width: 2px;
+    border-color: #c1bcf5;
+    border-style: solid; 
+    padding: 5px;
+    border-radius: 10px;
+    width: 45%;
+    background-color: #eae8f9;
+    display: block;
+    margin-bottom: 10px;
+    
+
+}
+
+input {
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #312682;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+input:focus {
+    border-color: #11B4B9;
+    box-shadow: 0 0 5px rgba(17, 180, 185, 0.5);
+}
+
+textarea{
+    width: 95%;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #312682;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+/* Style du bouton */
+button {
+    width: 80%;
+    max-width: 300px;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #312682;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #11B4B9;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #0d8a8e;
+}
+
+.form-container {
+    background: white;
+    /* Fond blanc */
+    padding: 5px;
+    /* Espacement intérieur */
+    border-radius: 10px;
+    /* Coins arrondis */
+    width: 400px;
+    /* Largeur du formulaire */
+    margin: 50px auto;
+    /* Centre le formulaire */
+    text-align: center;
+    /* Centre le contenu */
+}
+
+.form-group-two {
+    display: flex;
+    gap: 5%; /* Espacement entre les deux champs */
+  }
+
+label {
+    display: block;
+    /* Affiche le label sur une ligne entière */
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0 5px;
+    /* Espacement autour du label */
+}

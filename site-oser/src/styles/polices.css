@@ -1,0 +1,17 @@
+/*
+Regroupe les polices que l'on veut utiliser sur le site (i.e. les polices d'OSER : Nunito et Raleway)
+*/
+
+/*On importe les polices depuis Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.nunito{
+  font-family: "Nunito", sans-serif;
+}
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+}
+
